@@ -1,0 +1,19 @@
+git --version
+git clone <repo_url>
+
+#for changes
+git add .
+git commit -m '<message>'
+git push origin <branch_name>
+
+
+#pull
+git pull origin <branch_name>
+
+#to change branch
+git checkout <branch_name>
+
+#to create new branch
+git checkout -b <branch_name>
+
+
