@@ -4,13 +4,13 @@ from api import fetch_aqi_data, fetch_temperature_data, fetch_rainfall_data, fet
 os.makedirs("data", exist_ok=True)
 
 def display_welcome():
-    print("\n" + "="*50)
+    print("\n" + "="*80)
     print("Welcome to Spring Dale International School")
-    print("="*50)
-    print("ClimateInsightIndia: Analyze climate data for a better future.")
+    print("="*80)
+    print("DataParyavaran: Analyze climate data for a better future.")
     print("A project for the International Coding Olympiad.")
     print("Focus: Air Quality, Temperature, Rainfall, Water Resources, Crop Yield.")
-    print("="*50 + "\n")
+    print("="*80 + "\n")
 
 def display_menu():
     print("Select a topic to fetch data:")
@@ -20,7 +20,7 @@ def display_menu():
     print("4. Water Resource Depletion")
     print("5. Crop Yield Impact")
     print("0. Exit")
-    print("\nEnter the number (e.g., 1, 2, 3, ...):")
+    print("\nEnter the number (From 0 to 5):")
 
 def main():
     display_welcome()
@@ -30,7 +30,7 @@ def main():
 
         try:
             if choice == "0":
-                print("Exiting ClimateInsightIndia. Goodbye!")
+                print("Exiting DataParyavaran. Goodbye!")
                 break
             elif choice == "1":
                 df = fetch_aqi_data()

@@ -1,0 +1,5 @@
+curl -X 'GET' \
+  'https://api.data.gov.in/resource/af34a228-2b53-4044-89c9-5f73412d7823?api-key=579b464db66ec23bdd000001cdd3946e44ce4aad7209ff7b23ac571b&format=json' \
+  -H 'accept: application/xml'
+
+  
